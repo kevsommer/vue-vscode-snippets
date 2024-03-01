@@ -77,15 +77,8 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vmapgetters`     | import mapGetters from Vuex into vue component component                 |
 | `vmapmutations`   | import mapMutations from Vuex into vue component component               |
 | `vmapactions`     | import mapActions from Vuex into vue component component                 |
-| `vfilter`         | Vue filter                                                               |
-| `vmixin`          | Create a Vue Mixin                                                       |
-| `vmixin-use`      | Bring a mixin into a component to use                                    |
 | `vc-direct`       | Vue create a custom directive                                            |
 | `vimport-lib`     | Import a library                                                         |
-| `vimport-gsap`    | Import GreenSock                                                         |
-| `vanimhook-js`    | Using the Transition component JS hooks in methods                       |
-| `vcommit`         | Commit to Vuex store in methods for mutation                             |
-| `vdispatch`       | Dispatch to Vuex store in methods for action                             |
 
 ### Vue Composition API
 

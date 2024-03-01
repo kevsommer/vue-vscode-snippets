@@ -186,91 +186,10 @@
     ],
     "description": "mapactions inside a vue component"
   },
-  "Vue Filter": {
-    "prefix": "vfilter",
-    "body": [
-      "filters: {",
-      "\t${1:fnName}: function(${2:value}) {",
-      "\t\treturn ${2:value}${0};",
-      "\t}",
-      "}"
-    ],
-    "description": "vue filter"
-  },
-  "Vue Mixin": {
-    "prefix": "vmixin",
-    "body": [
-      "const ${1:mixinName} = {",
-      "\tmounted() {",
-      "\t\tconsole.log('hello from mixin!');",
-      "\t},",
-      "};"
-    ],
-    "description": "vue mixin"
-  },
-  "Vue Use Mixin": {
-    "prefix": "vmixin-use",
-    "body": ["mixins: [${1:mixinName}],"],
-    "description": "vue use mixin"
-  },
-  "Vue Custom Directive": {
-    "prefix": "vc-direct",
-    "body": [
-      "Vue.directive('${1:directiveName}', {",
-      "\tbind(el, binding, vnode) {",
-      "\t\tel.style.${2:arg} = binding.value.${2:arg};",
-      "\t}",
-      "});"
-    ],
-    "description": "vue custom directive"
-  },
   "Vue Import Library": {
     "prefix": "vimport-lib",
     "body": ["import { ${1:libName} } from '${1:libName}';"],
     "description": "import a library"
-  },
-  "Vue Import GSAP": {
-    "prefix": "vimport-gsap",
-    "body": ["import gsap from 'gsap';"],
-    "description": "import gsap library"
-  },
-  "Vue Transition Methods with JavaScript Hooks": {
-    "prefix": "vanimhook-js",
-    "body": [
-      "beforeEnter(el) {",
-      "\tconsole.log('beforeEnter');",
-      "},",
-      "enter(el, done) {",
-      "\tconsole.log('enter');",
-      "\tdone();",
-      "},",
-      "beforeLeave(el) {",
-      "\tconsole.log('beforeLeave');",
-      "},",
-      "leave(el, done) {",
-      "\tconsole.log('leave');",
-      "\tdone();",
-      "},"
-    ],
-    "description": "transition component js hooks"
-  },
-  "Vue Commit Vuex Store in Methods": {
-    "prefix": "vcommit",
-    "body": [
-      "${1:mutationName}() {",
-      "\tthis.\\$store.commit('${1:mutationName}', ${2:payload});",
-      "}"
-    ],
-    "description": "commit to vuex store in methods for mutation"
-  },
-  "Vue Dispatch Vuex Store in Methods": {
-    "prefix": "vdispatch",
-    "body": [
-      "${1:actionName}() {",
-      "\tthis.\\$store.dispatch('${1:actionName}', ${2:payload});",
-      "}"
-    ],
-    "description": "dispatch to vuex store in methods for action"
   },
   "Vue Composition API - Reactive": {
     "prefix": "v3reactive",
