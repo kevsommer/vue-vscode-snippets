@@ -1,30 +1,21 @@
 # Vue VSCode Snippets
 
-![vue-snippet-hero](https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/vue-snippet-hero.gif)
-
 ## Description
 
+This is a fork of ![Vue VS Code Snippets](https://github.com/sdras/vue-vscode-snippets)
 These snippets were built to supercharge a workflow in the most seamless manner possible.
 
-This repo was built particularly for real world use. It doesn't catalogue the API definitions, rather, it focuses on developer ergonomics from the point of Vue of real world use. Included are the pieces I personally get sick of typing, and boilerplate that is helpful to stub out quickly.
+This repo was built for real world use. It strips down the functionalities of the original project, adds custom functionalities and is opinionated to some extent. 
+Therefore, it supports the Composition API first, with its use of the `script setup` block. 
+It is focused on Vue 3 functionalities only, and is opinionated about TypeScript use in Vue 3. 
 
-_Versions Supported: Vue 2 and Vue 3_
-
-![SnippetDemo](https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/SnippetDemo.gif)
+_Versions Supported: Vue 3_
 
 ## Installation
 
-_Either_
+Clone the repo, install the dependencies via `yarn install` and build it via `yarn build`. You can open the resulting .vsix file in your VS Code editor and right-click to install it.
 
-- click the extensions button (lowest square icon in the editor), and type in Vue VSCode Snippets, select the one by sdras
-
-_or_
-
-- go here [vscode Extensions Marketplace](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
-
-```javascript
-ext install Vue VSCode Snippets
-```
+In the future, I plan to publish it to the VS Code extension store.
 
 You can enable tab completion (recommended) by opening `Code > Preferences > Settings` (on a Mac) and applying `"editor.tabCompletion": "onlySnippets"` to your personal settings
 
@@ -34,20 +25,13 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 | Snippet            | Purpose                                                      |
 | ------------------ | ------------------------------------------------------------ |
-| `vbase`            | Single file component base with SCSS                         |
-| `vbase-3`          | Single File component Composition API with SCSS              |
-| `vbase-3-setup`    | Single File component setup Composition API with SCSS        |
-| `vbase-3-reactive` | Single File component Composition API with Reactive and SCSS |
-| `vbase-css`        | Single file component base with CSS                          |
-| `vbase-pcss`       | Single file component base with PostCSS                      |
-| `vbase-styl`       | Single file component base with Stylus                       |
-| `vbase-ts`         | Single file component base with Typescript                   |
-| `vbase-ts-class`   | Single file component base with Typescript Class Format      |
-| `vbase-3-ts`       | Single File component Composition API with Typescript        |
-| `vbase-3-ts-setup` | Single File component setup Composition API with Typescript  |
-| `vbase-ns`         | Single file component with no styles                         |
-| `vbase-sass`       | Single file component base with SASS                         |
-| `vbase-less`       | Single file component base with LESS                         |
+| `vtempl`           | Template Block                                               |
+| `vscript`          | Typescript Setup Script Block                                |
+| `vstyle`           | Style Block                                                  |
+| `vts`              | Single File Component Setup with Typescript                  |
+| `vtss`             | Single File Component Setup with Typescript and Style        |
+| `vto`              | Single File Options Component with Typescript                |
+| `vtos`             | Single File Options Component with Typescript and Style      |
 
 ### Template
 
