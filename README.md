@@ -39,17 +39,13 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | ----------------- | ----------------------------------- |
 | `vfor`            | v-for directive                     |
 | `vmodel`          | Semantic v-model directive          |
-| `vmodel-num`      | Semantic v-model number directive   |
 | `von`             | v-on click handler with arguments   |
 | `vslot-named`     | Named slot                          |
 | `vel-props`       | Component element with props        |
 | `vsrc`            | Image src binding                   |
-| `vstyle`          | Inline style binding                |
-| `vstyle-obj`      | Inline style binding with objects   |
 | `vclass`          | Class binding                       |
 | `vclass-obj`      | Class binding with objects          |
 | `vclass-obj-mult` | Multiple conditional class bindings |
-| `vanim`           | Transition component with JS hooks  |
 | `vnuxtl`          | Nuxt Routing Link                   |
 | `vroutename`      | router-link Named Routing           |
 | `vroutenameparam` | router-link Named with Parameters   |
@@ -113,31 +109,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `v3onbeforeunmount` | Lifecycle hook - (beforeDestroy) onBeforeUnmount      |
 | `v3useinoptions`    | Use Composition API in Options API                    |
 
-### Vuex
-
-| Snippet         | Purpose                        |
-| --------------- | ------------------------------ |
-| `vstore`        | Base for Vuex store.js         |
-| `vgetter`       | Vuex Getter                    |
-| `vmutation`     | Vuex Mutation                  |
-| `vaction`       | Vuex Action                    |
-| `vmodule`       | Vuex Module                    |
-| `vstore-import` | Import vuex store into main.js |
-| `vstore2`       | Updated Base for Vuex store    |
-
-### Vue Router
-
-| Snippet              | Purpose                                       |
-| -------------------- | --------------------------------------------- |
-| `vrouter`            | Vue Router base                               |
-| `vscrollbehavior`    | Vue Router scrollBehavior                     |
-| `vbeforeeach`        | Vue Router global guards beforeEach           |
-| `vbeforeresolve`     | Vue Router global guards beforeResolve        |
-| `vaftereach`         | Vue Router global guards afterEach            |
-| `vbeforeenter`       | Vue Router per-route guard beforeEnter        |
-| `vbeforerouteenter`  | Vue Router component guards beforeRouteEnter  |
-| `vbeforerouteupdate` | Vue Router component guards beforeRouteUpdate |
-| `vbeforerouteleave`  | Vue Router component guards beforeRouteLeave  |
 
 ### Vue Config
 

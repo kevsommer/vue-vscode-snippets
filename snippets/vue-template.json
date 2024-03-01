@@ -13,13 +13,6 @@
     "body": ["<input v-model=\"${1:data}\" type=\"text\" />"],
     "description": "v-model directive"
   },
-  "Vue v-model Number Directive": {
-    "prefix": "vmodel-num",
-    "body": [
-      "<input v-model.number=\"${1:numData}\" type=\"number\" step=\"1\" />"
-    ],
-    "description": "v-model directive number input"
-  },
   "Vue v-on Shortcut Directive": {
     "prefix": "von",
     "body": ["@click=\"${1:handler}(${2:arg}, $event)\""],
@@ -41,18 +34,6 @@
       "<img :src=\"'/path/to/images/' + ${1:fileName}\" alt=\"${2:altText}\"/>"
     ],
     "description": "image source binding"
-  },
-  "Vue Style Binding": {
-    "prefix": "vstyle",
-    "body": ["<${1:div} :style=\"{ fontSize: ${2:data} + 'px' }\"></${1:div}>"],
-    "description": "vue inline style binding"
-  },
-  "Vue Style Binding Object": {
-    "prefix": "vstyle-obj",
-    "body": [
-      "<${1:div} :style=\"[${2:styleObjectA}, ${3:styleObjectB]}\"></${1:div}>"
-    ],
-    "description": "vue inline style binding, objects"
   },
   "Vue Class Binding": {
     "prefix": "vclass",
@@ -82,22 +63,6 @@
     "prefix": "vemit-parent",
     "body": ["@change=\"${1:foo} = $$event\""],
     "description": "Vue Emit to Parent Component"
-  },
-  "Vue Transition Component with JavaScript Hooks": {
-    "prefix": "vanim",
-    "body": [
-      "<transition",
-      "\tmode=\"out-in\"",
-      "\t@before-enter=\"beforeEnter\"",
-      "\t@enter=\"enter\"",
-      "",
-      "\t@before-leave=\"beforeLeave\"",
-      "\t@leave=\"leave\"",
-      "\t:css=\"false\">",
-      "",
-      "</transition>"
-    ],
-    "description": "transition component js hooks"
   },
   "Vue Nuxt Routing Link": {
     "prefix": "vnuxtl",
