@@ -46,7 +46,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vclass`          | Class binding                       |
 | `vclass-obj`      | Class binding with objects          |
 | `vclass-obj-mult` | Multiple conditional class bindings |
-| `vnuxtl`          | Nuxt Routing Link                   |
 | `vroutename`      | router-link Named Routing           |
 | `vroutenameparam` | router-link Named with Parameters   |
 | `vroutepath`      | router-link Path Routing Link       |
@@ -87,7 +86,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vanimhook-js`    | Using the Transition component JS hooks in methods                       |
 | `vcommit`         | Commit to Vuex store in methods for mutation                             |
 | `vdispatch`       | Dispatch to Vuex store in methods for action                             |
-| `vtest`           | A simple unit testing component                                          |
 
 ### Vue Composition API
 
@@ -108,32 +106,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `v3onunmounted`     | Lifecycle hook - (destroyed) onUnmounted              |
 | `v3onbeforeunmount` | Lifecycle hook - (beforeDestroy) onBeforeUnmount      |
 | `v3useinoptions`    | Use Composition API in Options API                    |
-
-
-### Vue Config
-
-| Snippet   | Purpose                                                              |
-| --------- | -------------------------------------------------------------------- |
-| `vplugin` | Import a plugin to main.js or plugins file                           |
-| `vconfig` | vue.config.js file, example imports a sass file into every component |
-
-### Nuxt Config
-
-| Snippet | Purpose                                                 |
-| ------- | ------------------------------------------------------- |
-| `nfont` | link to include fonts in a nuxt project, in nuxt-config |
-| `ncss`  | link to css assets such as normalize                    |
-
-### Nuxt Page
-
-| Snippet           | Purpose                          |
-| ----------------- | -------------------------------- |
-| `nasyncdata`      | Nuxt asyncData                   |
-| `nasyncdataaxios` | Nuxt asyncData with Axios module |
-| `nfetch`          | Nuxt Fetch                       |
-| `nfetchaxios`     | Nuxt Fetch with Axios module     |
-| `nhead`           | Nuxt Head                        |
-| `nparam`          | Nuxt Route Params                |
 
 ### Extra (plaintext)
 

@@ -272,38 +272,6 @@
     ],
     "description": "dispatch to vuex store in methods for action"
   },
-  "Unit Test": {
-    "prefix": "vtest",
-    "body": [
-      "import Vue from 'vue';",
-      "import ${1:HelloWorld} from './components/${1:HelloWorld}';",
-      "",
-      "describe('${1:HelloWorld}.vue', () => {",
-      "\tit('${2:should render correct contents}', () => {",
-      "\t\tconst Constructor = Vue.extend(${1:HelloWorld});",
-      "\t\tconst vm = new Constructor().$mount();",
-      "\t\texpect(vm.$el.querySelector('.hello h1').textContent)",
-      "\t\t\t.to.equal(${3:'Welcome to Your Vue.js App'});",
-      "\t});",
-      "});"
-    ],
-    "description": "unit test component"
-  },
-  "Vue.config.js Import": {
-    "prefix": "vconfig",
-    "body": [
-      "module.exports = {",
-      "\tcss: {",
-      "\t\tloaderOptions: {",
-      "\t\t\t${1:sass}: {",
-      "\t\t\t\tdata: `${2:@import '@/styles/_variables.scss';}`",
-      "\t\t\t}",
-      "\t\t}",
-      "\t}",
-      "}"
-    ],
-    "description": "vue.config.js"
-  },
   "Vue Composition API - Reactive": {
     "prefix": "v3reactive",
     "body": ["const ${1:name} = reactive({", "\t${2:count}: ${3:0}", "})"],
@@ -372,16 +340,6 @@
     "prefix": "v3onbeforeunmount",
     "body": ["onBeforeUnmount(() => {${1}})"],
     "description": "(beforeDestroy) Vue onBeforeUnmount Lifecycle hook"
-  },
-  "Plugin import": {
-    "prefix": "vplugin",
-    "body": [
-      "import Vue from 'vue'",
-      "import ${1:VueCompositionApi} from '${2:@vue/composition-api}'",
-      "",
-      "Vue.use(${1:VueCompositionApi})"
-    ],
-    "description": "Import a plugin to main.js or plugins file"
   },
   "Vue Composition API Reactive Script": {
     "prefix": "v3reactive-setup",
