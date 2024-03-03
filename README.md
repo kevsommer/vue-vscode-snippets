@@ -43,14 +43,9 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vslot-named`     | Named slot                          |
 | `vel-props`       | Component element with props        |
 | `vsrc`            | Image src binding                   |
-| `vclass`          | Class binding                       |
+| `vclass-arr`      | Class binding                       |
+| `vclass`          | Class binding with arrays           |
 | `vclass-obj`      | Class binding with objects          |
-| `vclass-obj-mult` | Multiple conditional class bindings |
-| `vroutename`      | router-link Named Routing           |
-| `vroutenameparam` | router-link Named with Parameters   |
-| `vroutepath`      | router-link Path Routing Link       |
-| `vemit-child`     | Emit event from child component     |
-| `vemit-parent`    | Emit event to parent component      |
 
 ### Script
 

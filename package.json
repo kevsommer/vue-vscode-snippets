@@ -46,7 +46,7 @@
       {
         "language": "typescript",
         "path": "./snippets/vue-script.json"
-      },
+      }
     ]
   }
 }

@@ -20,12 +20,12 @@
   },
   "Vue Component with Props Binding": {
     "prefix": "vel-props",
-    "body": ["<${1:component} :${1:propName}=\"${0}\"></${1:component}>"],
+    "body": ["<${1:component} :${2:propName}=\"${0}\"></${1:component}>"],
     "description": "component element with props"
   },
   "Vue Named Slot": {
     "prefix": "vslot-named",
-    "body": ["<template v-slot:${0:name}>${1:defaultcontent}</template>"],
+    "body": ["<template #${0:name}>${1:defaultcontent}</template>"],
     "description": "named slot"
   },
   "Vue Image Source Binding": {
@@ -35,52 +35,21 @@
     ],
     "description": "image source binding"
   },
-  "Vue Class Binding": {
+  "Vue Simple Class Binding": {
     "prefix": "vclass",
+    "body": ["<${1:div} :class=\"${2:className}\"></${1:div}>"],
+    "description": "vue class binding"
+  },
+  "Vue Class Binding Array": {
+    "prefix": "vclass-obj",
     "body": ["<${1:div} :class=\"{ ${2:className}: ${3:data} }\"></${1:div}>"],
     "description": "vue class binding"
   },
   "Vue Class Binding Object": {
-    "prefix": "vclass-obj",
+    "prefix": "vclass-arr",
     "body": [
       "<${1:div} :class=\"[${2:classNameA}, ${3:classNameB}]\"></${1:div}>"
     ],
     "description": "vue class binding"
   },
-  "Vue Multiple Conditional Class Bindings": {
-    "prefix": "vclass-obj-mult",
-    "body": [
-      "<${1:div} :class=\"[${2:classNameA}, {${3:classNameB} : ${4:condition}}]\"></${1:div}>"
-    ],
-    "description": "vue multiple conditional class bindings"
-  },
-  "Vue Named Routing Link": {
-    "prefix": "vroutename",
-    "body": [
-      "<router-link :to=\"{name: '${1:name}'}\">${2:LinkTitle}</router-link>"
-    ],
-    "description": "Named routing link"
-  },
-  "Vue Named Routing Link with Params": {
-    "prefix": "vroutenameparam",
-    "body": [
-      "<router-link :to=\"{name: '${1:name}', params:{${2:id}: '${3:value}'} }\">${4:LinkTitle}</router-link>"
-    ],
-    "description": "Named routing link w/ params"
-  },
-  "Vue Path Routing Link": {
-    "prefix": "vroutepath",
-    "body": ["<router-link to=\"${1:path}\">${2:LinkTitle}</router-link>"],
-    "description": "Path routing link"
-  },
-  "Vue Emit from Child": {
-    "prefix": "vemit-child",
-    "body": ["@change=\"$emit('change', $event.target.value)\""],
-    "description": "Vue Emit from Child Component"
-  },
-  "Vue Emit to Parent": {
-    "prefix": "vemit-parent",
-    "body": ["@change=\"${1:foo} = $event\""],
-    "description": "Vue Emit to Parent Component"
-  }
 }
