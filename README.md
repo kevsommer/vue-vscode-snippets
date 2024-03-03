@@ -43,8 +43,8 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vslot-named`     | Named slot                          |
 | `vel-props`       | Component element with props        |
 | `vsrc`            | Image src binding                   |
-| `vclass-arr`      | Class binding                       |
-| `vclass`          | Class binding with arrays           |
+| `vclass`          | Class binding                       |
+| `vclass-arr`      | Class binding with arrays           |
 | `vclass-obj`      | Class binding with objects          |
 
 ### Script
@@ -68,10 +68,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vimport-dynamic` | Import one component that should be lazy loaded by webpack               |
 | `vcomponents`     | Import one component into another within the export statement            |
 | `vimport-export`  | Import one component into another and use it within the export statement |
-| `vmapstate`       | import mapState from Vuex into vue component component                   |
-| `vmapgetters`     | import mapGetters from Vuex into vue component component                 |
-| `vmapmutations`   | import mapMutations from Vuex into vue component component               |
-| `vmapactions`     | import mapActions from Vuex into vue component component                 |
 | `vc-direct`       | Vue create a custom directive                                            |
 | `vimport-lib`     | Import a library                                                         |
 
@@ -93,7 +89,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `v3onerrorcaptured` | Lifecycle hook - onErrorCaptured                      |
 | `v3onunmounted`     | Lifecycle hook - (destroyed) onUnmounted              |
 | `v3onbeforeunmount` | Lifecycle hook - (beforeDestroy) onBeforeUnmount      |
-| `v3useinoptions`    | Use Composition API in Options API                    |
 
 ### Extra (plaintext)
 

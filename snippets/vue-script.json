@@ -111,7 +111,7 @@
   "Vue Import Export": {
     "prefix": "vimport-export",
     "body": [
-      "import ${1:Name} from '@/components/${1:Name}.vue';",
+      "import ${1:Name} from '@/${1:Name}.vue';",
       "",
       "export default {",
       "\tcomponents: {",
@@ -123,68 +123,8 @@
   },
   "Vue Import Component Dynamically": {
     "prefix": "vimport-dynamic",
-    "body": ["${1:New} = () => import('@/components/${1:New}.vue')"],
+    "body": ["${1:New} = defineAsyncComponent(() => import('@/${1:New}.vue'))"],
     "description": "Import component that should be lazy loaded"
-  },
-  "Vue MapState": {
-    "prefix": "vmapstate",
-    "body": [
-      "import { mapState } from 'vuex';",
-      "",
-      "export default {",
-      "\tcomputed: {",
-      "\t\t...mapState([",
-      "\t\t\t${1:'nameOfState'},",
-      "\t\t])",
-      "\t},",
-      "};"
-    ],
-    "description": "map getters inside a vue component"
-  },
-  "Vue MapGetters": {
-    "prefix": "vmapgetters",
-    "body": [
-      "import { mapGetters } from 'vuex';",
-      "",
-      "export default {",
-      "\tcomputed: {",
-      "\t\t...mapGetters([",
-      "\t\t\t${1:'nameOfGetter'},",
-      "\t\t])",
-      "\t},",
-      "};"
-    ],
-    "description": "mapgetters inside a vue component"
-  },
-  "Vue MapMutations": {
-    "prefix": "vmapmutations",
-    "body": [
-      "import { mapMutations } from 'vuex';",
-      "",
-      "export default {",
-      "\tmethods: {",
-      "\t\t...mapMutations([",
-      "\t\t\t${1:'nameOfMutation'}, //also supports payload `this.nameOfMutation(amount)` ",
-      "\t\t])",
-      "\t},",
-      "};"
-    ],
-    "description": "mapmutations inside a vue component"
-  },
-  "Vue MapActions": {
-    "prefix": "vmapactions",
-    "body": [
-      "import { mapActions } from 'vuex';",
-      "",
-      "export default {",
-      "\tmethods: {",
-      "\t\t...mapActions([",
-      "\t\t\t${1:'nameOfAction'}, //also supports payload `this.nameOfAction(amount)` ",
-      "\t\t])",
-      "\t},",
-      "};"
-    ],
-    "description": "mapactions inside a vue component"
   },
   "Vue Import Library": {
     "prefix": "vimport-lib",
@@ -278,22 +218,5 @@
       "}"
     ],
     "description": "Vue Composition API Script with Reactive"
-  },
-  "Use Composition API within Options API": {
-    "prefix": "v3useinoptions",
-    "body": [
-      "import { ${0:component} } from '@/composables/${0:component}.js'",
-      "",
-      "export default {",
-      "\tsetup () {",
-      "\t\tconst { ${1:name} } = ${0:component}()",
-      "\t",
-      "\t\treturn {",
-      "\t\t\t${1:name}",
-      "\t\t}",
-      "\t}",
-      "}"
-    ],
-    "description": "Use Composition API within Options API"
   }
 }
