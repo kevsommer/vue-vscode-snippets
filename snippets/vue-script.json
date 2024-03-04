@@ -86,8 +86,22 @@
     ],
     "description": "vue watcher with options"
   },
-  "Vue Props with Default": {
+  "Vue Props without Defaults": {
     "prefix": "vprops",
+    "body": [
+      "defineProps<{${0}}>();"
+    ],
+    "description": "Vue Props with Default"
+  },
+  "Vue Props with Defaults": {
+    "prefix": "vpropsdef",
+    "body": [
+      "withDefaults(defineProps<{${1}}>(), {${0}});"
+    ],
+    "description": "Vue Props with Default"
+  },
+  "Vue Options API Props with Default": {
+    "prefix": "v2props",
     "body": [
       "props: {",
       "\t${1:propName}: {",

@@ -63,7 +63,9 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vupdated`        | updated lifecycle method                                                 |
 | `vbeforedestroy`  | beforeDestroy lifecycle method                                           |
 | `vdestroyed`      | destroyed lifecycle method                                               |
-| `vprops`          | Props with type and default                                              |
+| `vprops`          | Props without defaults                                                   |
+| `vpropsdef`       | Props with defaults                                                      |
+| `v2props`         | Props with defaults in Options API                                       |
 | `vimport`         | Import one component into another                                        |
 | `vimport-dynamic` | Import one component that should be lazy loaded by webpack               |
 | `vcomponents`     | Import one component into another within the export statement            |
