@@ -54,7 +54,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vdata`           | Component data as a function                                             |
 | `vmethod`         | Vue method                                                               |
 | `vcomputed`       | Vue computed property                                                    |
-| `vwatcher`        | Vue watcher with new and old value args                                  |
+| `v2watcher`       | Vue watcher with new and old value args                                  |
 | `vbeforecreate`   | beforeCreate lifecycle method                                            |
 | `vcreated`        | created lifecycle method                                                 |
 | `vbeforemount`    | beforeMount lifecycle method                                             |
@@ -66,7 +66,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vprops`          | Props without defaults                                                   |
 | `vpropsdef`       | Props with defaults                                                      |
 | `v2props`         | Props with defaults in Options API                                       |
-| `vimport`         | Import one component into another                                        |
 | `vimport-dynamic` | Import one component that should be lazy loaded by webpack               |
 | `vcomponents`     | Import one component into another within the export statement            |
 | `vimport-export`  | Import one component into another and use it within the export statement |
@@ -77,20 +76,12 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 | Snippet             | Purpose                                               |
 | ------------------- | ----------------------------------------------------- |
-| `v3reactive`        | Vue Composition API - reactive                        |
-| `v3reactive-setup`  | Vue Composition API - reactive with setup boilerplate |
-| `v3computed`        | Vue Composition API - computed                        |
-| `v3watch`           | Vue Composition API - watcher single source           |
-| `v3watch-array`     | Vue Composition API - watch as array                  |
-| `v3watcheffect`     | Vue Composition API - watchEffect                     |
-| `v3ref`             | Vue Ref                                               |
-| `v3onmounted`       | Lifecycle hook - onMounted                            |
-| `v3onbeforemount`   | Lifecycle hook - onBeforeMount                        |
-| `v3onbeforeupdate`  | Lifecycle hook - onBeforeUpdate                       |
-| `v3onupdated`       | Lifecycle hook - onUpdated                            |
-| `v3onerrorcaptured` | Lifecycle hook - onErrorCaptured                      |
-| `v3onunmounted`     | Lifecycle hook - (destroyed) onUnmounted              |
-| `v3onbeforeunmount` | Lifecycle hook - (beforeDestroy) onBeforeUnmount      |
+| `vreactive`         | Vue Composition API - reactive                        |
+| `vcomp`             | Vue Composition API - computed                        |
+| `vwatch`            | Vue Composition API - watcher single source           |
+| `vwatcharr`         | Vue Composition API - watch as array                  |
+| `vwatcheff`         | Vue Composition API - watchEffect                     |
+| `vref`              | Vue Ref                                               |
 
 ### Extra (plaintext)
 
