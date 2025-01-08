@@ -166,12 +166,21 @@
   },
   "Vue Composition API - watchEffect": {
     "prefix": "vwatcheff",
-    "body": ["watchEffect(() => {", "\t${1}", "})"],
+    "body": ["watchEffect(() => {", "\t$1", "})"],
     "description": "Vue Composition api - watchEffect"
   },
   "Vue Composition API - Vue ref": {
     "prefix": "vref",
     "body": ["const ${1:name} = ref(${2:initialValue})"],
     "description": "Vue Ref"
-  }
+  }, 
+  "Vue SetupTranslations": {
+    "prefix": "vtrans",
+    "body": [
+      "import { setupTranslations } from '@/common/translations';",
+      "",
+      "const t = setupTranslations('$1');"
+    ],
+    "description": "Vue i18n translation"
+  },
 }
